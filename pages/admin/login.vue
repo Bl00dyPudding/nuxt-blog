@@ -69,13 +69,24 @@ export default {
             }
 
             await this.$store.dispatch('auth/login', formData)
-            this.$router.push('/admin')
+            await this.$router.push('/admin')
 
           } catch (e) {
             this.loading = false
           }
         }
       })
+    }
+  },
+  mounted () {
+    const { message } = this.$route.query
+    switch (message) {
+      case 'login-failed':
+        this.$message.info('Необходимо войти в систему');
+        break
+      case 'logout':
+        this.$message.info('Осуществлен выход из системы');
+        break
     }
   }
 }

@@ -1,16 +1,27 @@
 <template>
   <div class="empty-layout">
-    <nuxt/>
+    <nuxt />
   </div>
 </template>
 
 <script>
 export default {
-  name: "empty"
+  name: 'empty',
+  computed: {
+    error() {
+      return this.$store.getters.error
+    }
+  },
+  watch: {
+    error(value) {
+      this.$message.error(value)
+    }
+  }
 }
 </script>
 
-<style scoped>
+
+<style lang="scss" scoped>
   .empty-layout {
     display: flex;
     justify-content: center;
