@@ -33,7 +33,8 @@ export default {
   name: "Post",
   methods: {
     openPost () {
-      //
+      const postId = 1
+      this.$router.push('/post/' + postId)
     }
   }
 }
