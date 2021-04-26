@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "latest",
+    "body-parser": "^1.18.3",
     "cross-env": "latest",
     "element-ui": "latest",
     "express": "latest",
+    "mongoose": "^5.12.5",
     "nuxt": "latest",
     "vue-markdown": "^2.1.2"
   },
