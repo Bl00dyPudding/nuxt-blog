@@ -13,7 +13,8 @@
     "cross-env": "latest",
     "element-ui": "latest",
     "express": "latest",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "vue-markdown": "^2.1.2"
   },
   "devDependencies": {
     "@nuxt/types": "~2.15.0",

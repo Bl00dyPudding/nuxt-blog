@@ -11,6 +11,7 @@
       ref="form"
       @submit.native.prevent="onSubmit"
     >
+      <!-- <h2>Войти в панель администратора</h2> -->
 
       <el-form-item label="Текст в формате .md или .html" prop="text">
         <el-input
@@ -110,9 +111,5 @@ export default {
 
   .mr {
     margin-right: 2rem;
-  }
-
-  .mb {
-    margin-bottom: 2rem;
   }
 </style>
