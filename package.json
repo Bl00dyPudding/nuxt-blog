@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "latest",
+    "bcrypt-nodejs": "^0.0.3",
     "body-parser": "^1.18.3",
     "cross-env": "latest",
     "element-ui": "latest",
     "express": "latest",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.5",
     "nuxt": "latest",
     "vue-markdown": "^2.1.2"
