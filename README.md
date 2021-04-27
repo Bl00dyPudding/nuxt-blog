@@ -23,5 +23,7 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 ## Admin panel info:
 
+```
 # Login: admin
 # Password: 123456
+```
