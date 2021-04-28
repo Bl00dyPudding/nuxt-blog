@@ -10,7 +10,7 @@
 
     <el-form-item label="Введите название поста" prop="title">
       <el-input
-        v-model.trim="controls.title"
+        v-model="controls.title"
       />
     </el-form-item>
 
@@ -60,11 +60,9 @@
 </template>
 
 <script>
-import VueMarkdown from 'vue-markdown'
 export default {
   layout: 'admin',
   middleware: ['admin-auth'],
-  components: {VueMarkdown},
   data() {
     return {
       image: null,
