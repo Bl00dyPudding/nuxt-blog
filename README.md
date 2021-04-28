@@ -20,3 +20,10 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## Admin panel info:
+
+```
+# Login: admin
+# Password: 123456
+```
