@@ -23,8 +23,8 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 
 ## Admin panel info:
 
-```
 [http://localhost:3000/admin/](http://localhost:3000/admin/)
+```
 # Login: admin
 # Password: 123456
 ```
