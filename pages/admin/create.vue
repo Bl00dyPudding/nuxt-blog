@@ -6,7 +6,7 @@
     @submit.native.prevent="onSubmit"
   >
 
-    <h1 class="mb">Создать новый пост</h1>
+    <h2 class="mb">Создать пост</h2>
 
     <el-form-item label="Введите название поста" prop="title">
       <el-input
@@ -63,6 +63,11 @@
 export default {
   layout: 'admin',
   middleware: ['admin-auth'],
+  head() {
+    return {
+      title: `Создать пост | ${process.env.appName}`
+    }
+  },
   data() {
     return {
       image: null,

@@ -22,6 +22,11 @@ export default {
   components: {
     Analytics
   },
+  head() {
+    return {
+      title: `Аналитика | ${process.env.appName}`
+    }
+  },
   data () {
     return {
       views: '',

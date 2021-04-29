@@ -11,7 +11,12 @@
 
 <script>
 export default {
-  name: "error"
+  name: "error",
+  head() {
+    return {
+      title: `Ошибка 404 | ${process.env.appName}`
+    }
+  }
 }
 </script>
 
